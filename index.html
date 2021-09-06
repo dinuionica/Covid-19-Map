@@ -1,0 +1,69 @@
+<!-- Copyright 2021 Dinu Ion-Irinel -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- boostrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <!-- mapbox css link -->
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Text|Work+Sans:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <title>Covid-19 Map</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div id="map"></div>
+        </div>
+        <div class="col-md-6">
+          <div class="search-div">
+            <h1 class="logo-title">Covid-19 Map</h1>
+            <div class="input-group mb-3">
+              <input
+                type="text"
+                class="form-control"
+                aria-label="Default"
+                aria-describedby="inputGroup-sizing-default"
+                id="input-area"
+              />
+            </div>
+            <button
+              type="button"
+              class="btn btn-dark btn-search"
+              id="btn-search"
+            >
+              Search
+            </button>
+            <div class="info-infections">
+              <h4 class="info-tag" id="number-infections">2000</h4>
+              <h6>Total Infections</h6>
+            </div>
+            <div class="info-deads">
+              <h4 class="info-tag" id="number-deads">2000</h4>
+              <h6>Total deads</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- mapbox javascript link -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
+  <!-- script javascript link -->
+  <script src="./js/script.js"></script>
+</html>

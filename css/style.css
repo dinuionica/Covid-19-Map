@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: whitesmoke;
+}
+
+#map {
+  margin-top: 30px;
+  width: 800px;
+  height: 600px;
+  border-radius: 12px;
+}
+
+.search-div {
+  margin-left: 200px;
+  margin-top: 60px;
+}
+
+.btn-search {
+  background-color: rgb(29, 28, 28);
+  float: left;
+}
+
+.btn-search:hover {
+  background-color: rgb(29, 28, 28);
+}
+
+.logo-title {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: "Crimson Text", serif;
+}
+
+.info-tag {
+  padding-top: 20px;
+}
+
+.info-infections {
+  padding-top: 70px;
+}
+
+.info-deads {
+  padding-top: 20px;
+}
+
+#number-infections {
+  color: red;
+}
+
+#number-deads {
+  color: blue;
+}
