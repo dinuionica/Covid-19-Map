@@ -15,7 +15,6 @@ let totalNumberInfections = 0;
 let totalNumberDeads = 0;
 
 /* displaying map with last results */
-
 const changeColorAfterInfections = (number_infections) => {
   if (number_infections > 100) {
     return "red";
